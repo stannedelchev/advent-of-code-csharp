@@ -4,6 +4,7 @@ using AdventOfCode2017.Day1;
 namespace AdventOfCode2017.Tests
 {
     [TestClass]
+    [TestCategory("Day1")]
     public class Day1SolverTests
     {
         private Solver solver;

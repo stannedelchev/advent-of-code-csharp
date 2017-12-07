@@ -4,6 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace AdventOfCode2017.Tests
 {
     [TestClass]
+    [TestCategory("Day2")]
     public class Day2SolverTests
     {
         [TestMethod]
