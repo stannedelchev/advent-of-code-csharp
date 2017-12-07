@@ -46,6 +46,7 @@
     <Compile Include="Day2\Solver.cs" />
     <Compile Include="Day3\Solver.cs" />
     <Compile Include="Day3\SpiralMemoryStorage.cs" />
+    <Compile Include="Day5\Solver.cs" />
     <Compile Include="Day4\Solver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -64,6 +65,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Inputs\day3_input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Inputs\day5_input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
