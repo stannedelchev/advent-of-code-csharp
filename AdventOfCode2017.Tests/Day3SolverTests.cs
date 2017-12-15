@@ -44,7 +44,7 @@ namespace AdventOfCode2017.Tests
         [TestMethod]
         public void Part2_Passes()
         {
-            throw new NotImplementedException();
+            Assert.Inconclusive();
         }
 
         [TestInitialize]
