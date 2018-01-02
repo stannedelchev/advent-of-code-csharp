@@ -60,11 +60,15 @@
     <Compile Include="Day8\Register.cs" />
     <Compile Include="Day8\Registers.cs" />
     <Compile Include="Day8\Solver.cs" />
+    <Compile Include="Day9\Solver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Content Include="Inputs\day9_input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Inputs\day1_input.txt">
