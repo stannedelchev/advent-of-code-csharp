@@ -49,6 +49,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Day11\HexTraverser.cs" />
+    <Compile Include="Day11\Solver.cs" />
     <Compile Include="Day10\CircularArray.cs" />
     <Compile Include="Day10\DenseHash.cs" />
     <Compile Include="Day10\SparseHash.cs" />
@@ -77,6 +79,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Content Include="Inputs\day11_input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Inputs\day10_input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
