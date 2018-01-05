@@ -24,6 +24,8 @@ namespace AdventOfCode2017
             var day8Part2Solution = new Day8.Solver().SolvePart2(File.ReadAllText(@"Inputs\Day8_input.txt"));
             var day9Part1Solution = new Day9.Solver().SolvePart1(File.ReadAllText(@"Inputs\Day9_input.txt"));
             var day9Part2Solution = new Day9.Solver().SolvePart2(File.ReadAllText(@"Inputs\Day9_input.txt"));
+            var day10Part1Solution = new Day10.Solver().SolvePart1(File.ReadAllText(@"Inputs\Day10_input.txt"));
+            var day10Part2Solution = new Day10.Solver().SolvePart2(File.ReadAllText(@"Inputs\Day10_input.txt"));
 
             System.Console.WriteLine($"Day 1.1 : {day1Part1Solution}");
             System.Console.WriteLine($"Day 1.2 : {day1Part2Solution}");
@@ -43,6 +45,8 @@ namespace AdventOfCode2017
             System.Console.WriteLine($"Day 8.2 : {day8Part2Solution}");
             System.Console.WriteLine($"Day 9.1 : {day9Part1Solution}");
             System.Console.WriteLine($"Day 9.2 : {day9Part2Solution}");
+            System.Console.WriteLine($"Day 10.1 : {day10Part1Solution}");
+            System.Console.WriteLine($"Day 10.2 : {day10Part2Solution}");
         }
     }
 }
